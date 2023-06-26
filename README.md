@@ -1,6 +1,6 @@
 # Lead Generation API
 
-<!-- Analytics app that gathers data from multiple social media platforms, organizes the data and then puts it into easy to understand data visualizations for content creators to get a better understanding of how their content is performing across social media platforms. Questions? [Email Us](trifecta1906@gmail.com) -->
+This API is built for lead generation and provides users with a streamlined platform for capturing and tracking leads. It integrates with existing CRM and marketing operations to ensure all data is kept up-to-date. From within the API, users can capture leads and create detailed profiles for each prospect, including contact information and activity history. A powerful scoring system provides instant insight into which leads are most likely to convert and allows users to prioritize their campaigns. Additional features include automated reminders and notifications for follow-up, an analytics dashboard to measure performance, and email template customization. All features are accessible through web, mobile, and API to ensure maximum flexibility. Questions? [Email Us](info@ambitiousconcept.com) -->
 
 - [Lead Generation API](#lead-generation-api)
   - [Getting Up and Running](#getting-up-and-running)
