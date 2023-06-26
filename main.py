@@ -72,6 +72,7 @@ app = FastAPI(
     },
     servers=[
         {"url": "http://127.0.0.1:8000", "description": "Local environment"},
+        {"url": "https://acleadgeneration-d6957f321f1b.herokuapp.com", "description": "Staging environment"},
         {"url": "https://stag.example.com", "description": "Staging environment"},
         {"url": "https://prod.example.com", "description": "Production environment"},
     ],
