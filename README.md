@@ -82,6 +82,12 @@ Suggested setup
   uvicorn main:app --reload  
   ```
 
+  - Deploy
+  
+  ```bash 
+  git push heroku main 
+  ```
+
   The server is running on http://127.0.0.1:8000/
 
 ## Overview Details

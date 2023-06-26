@@ -2,7 +2,7 @@ import time
 from typing import Callable
 
 from fastapi import APIRouter, FastAPI, Request, Response
-from util.config import settings
+# from util.config import settings
 
 import util.logger as logger
 from fastapi.middleware.cors import CORSMiddleware
@@ -157,11 +157,11 @@ async def add_process_time_header(request: Request, call_next):
     response.headers["X-Process-Time"] = str(process_time)
     return response
 
-@app.get("/info")
-async def info():
-    return {
-        "app_name": settings.app_name,
-        "admin_email": settings.admin_email,
-        "items_per_user": settings.items_per_user,
-    }
+# @app.get("/info")
+# async def info():
+#     return {
+#         "app_name": settings.app_name,
+#         "admin_email": settings.admin_email,
+#         "items_per_user": settings.items_per_user,
+#     }
 
