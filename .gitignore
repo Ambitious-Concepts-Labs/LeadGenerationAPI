@@ -1,0 +1,8 @@
+API_KEY.txt
+.env
+.pytest_cache
+__pycache__
+venv/
+router/__pycache__
+service/__pycache__
+util/__pycache__
