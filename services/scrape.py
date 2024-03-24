@@ -10,7 +10,7 @@ import util.config as config
 import util.logger as logger
 
 my_logger = logger.get_logger("scrape.py")
-client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
+client = motor.motor_asyncio.AsyncIOMotorClient("mongodb://localhost:27017" or os.environ["MONGODB_URL"])
 db = client.leadGeneration
 
 async def get_outscraper_info(queries=[], business_type=None, location_name=None, limit=1):
